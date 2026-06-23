@@ -37,4 +37,4 @@ pip install -r requirements.txt
 # 8. Kalau step sudah selesai, Jalankan tools nya!
 python nglmain.py
 ```
-## 🔥🔥 Enjoy w
+## 🔥🔥 Enjoy with your pleasure!
