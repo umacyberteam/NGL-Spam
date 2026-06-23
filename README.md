@@ -25,14 +25,16 @@ pkg update && pkg upgrade -y
 # 2. Install Python & Git
 pkg install python git -y
 
-# 3. Install modul requests (wajib!)
-pip install requests
+# 5. Clone repository ini
+git clone https://github.com/umacyberteam/NGL-Spam
 
-# 4. Clone repository ini
-git clone https://github.com/umacyberteam/NGL-Spam.git
-
-# 5. Masuk ke folder NGL-Spam
+# 6. Masuk ke folder NGL-Spam
 cd NGL-Spam
 
-# 6. Jalankan tools
+# 7. Install semua dependencies
+pip install -r requirements.txt
+
+# 8. Kalau step sudah selesai, Jalankan tools nya!
 python nglmain.py
+```
+## 🔥🔥 Enjoy w
